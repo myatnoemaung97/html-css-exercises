@@ -3,8 +3,8 @@
 .--modal-btn {
     transition: opacity 0.3s ease-in;
     position: fixed;
-    right: 10px;
-    bottom: 65px;
+    right: 15px;
+    bottom: 15px;
 }
 
 .--modal-btn:hover {
