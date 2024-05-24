@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML-CSS</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/807f2d6ec6.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="font-family: 'Montserrat', sans-serif;">
+  <main style="width: 90%; max-width: 1000px; margin: 0 auto;">
+    <h1 class="text-center mb-5">HTML-CSS</h1>
+    <div class="accordion" id="accordionExample">
+      <!-- 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Exercise 1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-decoration-underline">HTML</p>
+            <p class="text-secondary">&lt;p&gt; , &lt;a&gt;, &lt;button&gt;</p>
+            <a class="btn btn-sm btn-warning" href="/1">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Exercise 2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-decoration-underline">CSS </p>
+            <p class="text-secondary">background-color, color, border, border-radius, height, width, cursor,
+              font-weight, font-size, margin</p>
+            <p class="text-secondary fs-14">* use inspect tool from browser to get the required color code</p>
+            <a class="btn btn-sm btn-warning" href="/2">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Exercise 3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-decoration-underline">CSS </p>
+            <p class="text-secondary">:hover, opacity, box-shadow, transition</p>
+            <a class="btn btn-sm btn-warning" href="/3">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
+            aria-expanded="false" aria-controls="collapse4">
+            Exercise 4
+          </button>
+        </h2>
+        <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-decoration-underline">CSS </p>
+            <p class="text-secondary">padding, :active</p>
+            <p class="text-secondary fs-14">* use padding instead of width to alter the width of the buttons</p>
+            <a class="btn btn-sm btn-warning" href="/4">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5"
+            aria-expanded="false" aria-controls="collapse5">
+            Exercise 5
+          </button>
+        </h2>
+        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="text-decoration-underline">CSS </p>
+            <p class="text-secondary">font-family, line-height, text-align, text-decoration</p>
+            <a class="btn btn-sm btn-warning" href="/5">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 7 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7"
+            aria-expanded="false" aria-controls="collapse7">
+            Exercise 7
+          </button>
+        </h2>
+        <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">HTML</p>
+              <p class="text-secondary">&lt;img&gt;, &lt;input&gt;</p>
+            </div>
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <p class="text-secondary">object-fit, object-position</p>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/7">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 8 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8"
+            aria-expanded="false" aria-controls="collapse8">
+            Exercise 8
+          </button>
+        </h2>
+        <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <p class="text-secondary d-block m-0">display: inline-block;</p>
+              <p class="text-secondary d-block">display: block;</p>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/8">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 9 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9"
+            aria-expanded="false" aria-controls="collapse9">
+            Exercise 9
+          </button>
+        </h2>
+        <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <p class="text-secondary d-block m-0">display: inline-block;</p>
+              <p class="text-secondary d-block">display: block;</p>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/9">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 10 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            Exercise 10
+          </button>
+        </h2>
+        <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <p class="text-secondary d-block m-0">display: inline-block;</p>
+              <p class="text-secondary d-block">display: block;</p>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/10">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 11 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+            Exercise 11
+          </button>
+        </h2>
+        <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p class="m-0">display: grid;</p>
+                <p class="m-0">grid-template-columns</p>
+                <p class="m-0">row-gap</p>
+                <p>column-gap</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/11">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 12 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+            Exercise 12
+          </button>
+        </h2>
+        <div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p class="m-0">display: flex;</p>
+                <p class="m-0">flex-direction:</p>
+                <p class="m-0">flex:</p>
+                <p class="m-0">justify-content:</p>
+                <p>align-items:</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/12">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 13 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+            Exercise 13
+          </button>
+        </h2>
+        <div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>Use flexbox</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/13">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 14-a -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse14a" aria-expanded="false" aria-controls="collapse14a">
+            Exercise 14-a
+          </button>
+        </h2>
+        <div id="collapse14a" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>position: fixed;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/14/a">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 14-b -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse14b" aria-expanded="false" aria-controls="collapse14b">
+            Exercise 14-b
+          </button>
+        </h2>
+        <div id="collapse14b" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>position: fixed;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/14/b">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 14-c -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse14c" aria-expanded="false" aria-controls="collapse14c">
+            Exercise 14-c
+          </button>
+        </h2>
+        <div id="collapse14c" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>position: fixed;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/14/c">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 14-d -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse14d" aria-expanded="false" aria-controls="collapse14c">
+            Exercise 14-d
+          </button>
+        </h2>
+        <div id="collapse14d" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>position: fixed;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/14/d">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 14-e -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse14e" aria-expanded="false" aria-controls="collapse14e">
+            Exercise 14-e
+          </button>
+        </h2>
+        <div id="collapse14e" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>position: fixed;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/14/e">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 14-f -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse14f" aria-expanded="false" aria-controls="collapse14f">
+            Exercise 14-f
+          </button>
+        </h2>
+        <div id="collapse14f" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>position: fixed;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/14/f">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 15-a -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse15a" aria-expanded="false" aria-controls="collapse15a">
+            Exercise 15-a
+          </button>
+        </h2>
+        <div id="collapse15a" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p class="m-0">position: relative;</p>
+                <p>position: absolute;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/15/a">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 15-b -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse15b" aria-expanded="false" aria-controls="collapse15b">
+            Exercise 15-b
+          </button>
+        </h2>
+        <div id="collapse15b" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p class="m-0">position: relative;</p>
+                <p class="m-0">position: absolute;</p>
+                <p>transform: translate;</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/15/b">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- 17 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+            Exercise 17
+          </button>
+        </h2>
+        <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div>
+              <p class="text-decoration-underline">CSS</p>
+              <div class="text-secondary">
+                <p>media queries</p>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-warning" href="/17">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+      <!-- youtube -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+            Youtube Template
+          </button>
+        </h2>
+        <div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="m-0 text-secondary">- Use everything you've learned so far to recreate Youtube design</p>
+            <p class="text-secondary">- Use media queries to acheive reponsiveness</p>
+            <a class="btn btn-sm btn-warning" href="/youtube-clone/">Go to exercise</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

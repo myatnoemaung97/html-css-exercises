@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML-CSS Exercise 13</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="../style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/807f2d6ec6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="flexbox1">
+    <div class="column1">
+      <div class="item1">item1</div>
+    </div>
+    <div class="column2"></div>
+  </div>
+  <div class="flexbox2">
+    <div class="column1"></div>
+    <div class="column2">
+      <div>row1</div>
+      <div class="row2">
+        <div class="row2-item">row2</div>
+        <div class="row2-item">row2</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="--container">
+    <div class="inbox-label">ALL INBOXES</div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="sender-picture" src="../images/cat.jpg">
+      </div>
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name">Chewy Promotions</div>
+          <div class="send-time">4:58 PM</div>
+        </div>
+        <div class="subject">
+          Biggest sales of the year!
+        </div>
+        <div class="message">
+          Hey there! We're writing to tell you about our...
+        </div>
+      </div>
+    </div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="sender-picture" src="../images/dog.jpg">
+      </div>
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name">Best Buy</div>
+          <div class="send-time">12:32 PM</div>
+        </div>
+        <div class="subject">
+          Your Best Buy eReceipt
+        </div>
+        <div class="message">
+          Thank you for shopping at Best Buy, here is...
+        </div>
+      </div>
+    </div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="sender-picture" src="../images/cat2.jpg">
+      </div>
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name">Netflix</div>
+          <div class="send-time">9:00 AM</div>
+        </div>
+        <div class="subject">
+          Here's what's coming soon to Netflix
+        </div>
+        <div class="message">
+          Brand new movies and shows, old favorites...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tweet">
+    <div class="profile-picture-column">
+      <img class="profile-picture" src="../images/cat.jpg">
+    </div>
+    <div class="tweet-column">
+      <div class="tweet-header">
+        <div class="tweet-author">supersimple.dev</div>
+        <div class="tweet-author-handle">@SuperSimpleDev</div>
+      </div>
+      <div class="tweet-content">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-column"></div>
+        <div class="video-info-column">
+          <div class="video-website">youtube.com</div>
+          <div class="video-title">
+            Backend web development - a complete overview (2021)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button trigger modal -->
+  <button type="button"
+    class="--modal-btn btn bg-primary rounded-circle text-white opacity-75"
+    data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <i class="fa-solid fa-ellipsis"></i>
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content py-3">
+        <div class="modal-body ">
+          <h3 class="text-center">Exercise 13</h3>
+          <div class="d-flex justify-content-between">
+            <!-- <div>
+            <h5 class="text-decoration-underline">HTML</h5>
+            <p>&lt;img&gt;, &lt;input&gt;</p>
+          </div> -->
+            <!-- <div>
+              <h5 class="text-decoration-underline">CSS</h5>
+              <div class="text-secondary">
+                <p class="m-0">display: flex;</p>
+                <p class="m-0">flex-direction:</p>
+                <p class="m-0">flex:</p>
+                <p class="m-0">justify-content:</p>
+                <p class="m-0">align-items:</p>
+              </div>
+            </div> -->
+            <div>
+              <h5 class="text-decoration-underline">CSS</h5>
+            <div class="text-secondary">
+              <p class="m-0">Use flexbox</p>
+            </div>
+            </div>
+            
+          </div>
+          <div class="d-flex justify-content-between mt-4">
+            <div>
+              <a class="btn btn-sm btn-secondary" href="../12"><i class="fa-solid fa-arrow-left"></i>
+                Previous</a>
+            </div>
+            <div>
+              <a class="btn btn-sm btn-primary" href="../">Home <i class="fa-solid fa-house"></i></a>
+              <a class="btn btn-sm btn-success" href="../14/a">Next <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>YouTube Template</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="left-section">
+			<img class="hamburger-menu" src="../icons/hamburger-menu.svg">
+			<img class="youtube-logo" src="../icons/youtube-logo.svg">
+		</div>
+		<div class="middle-section">
+			<input class="search-bar" type="text" placeholder="Search">
+			<button class="search-button">
+				<img class="search-icon" src="../icons/search.svg">
+				<div class="tooltip">Search</div>
+			</button>
+			<!-- Put position absolute inside position relative -->
+			<button class="voice-search-button">
+				<img class="voice-search-icon" src="../icons/voice-search-icon.svg">
+				<div class="tooltip">Search with your voice</div>
+			</button>
+		</div>
+		<div class="right-section">
+			<div class="upload-icon-container">
+				<img class="upload-icon" src="../icons/upload.svg">
+				<div class="tooltip">Create</div>
+			</div>
+			<div class="youtube-apps-icon-container">
+				<img class="youtube-apps-icon" src="../icons/youtube-apps.svg">
+				<div class="tooltip">YouTube Apps</div>
+			</div>
+			<div class="notifications-icon-container">
+				<img class="notifications-icon" src="../icons/notifications.svg">
+				<div class="notifications-count">3</div>
+				<div class="tooltip">Notifications</div>
+			</div>
+			<img class="current-user-picture" src="../channel-pictures/my-channel.jpeg">
+		</div>
+	</header>
+
+	<nav class="sidebar">
+		<div class="sidebar-link">
+			<img src="../icons/home.svg">
+			<div>Home</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="../icons/explore.svg">
+			<div>Explore</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="../icons/subscriptions.svg">
+			<div>Subscriptions</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="../icons/originals.svg">
+			<div>Originals</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="../icons/youtube-music.svg">
+			<div>YouTube Music</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="../icons/library.svg">
+			<div>Library</div>
+		</div>
+	</nav>
+
+	<main>
+		<section class="video-grid">
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=QtplRk6BdyA&t=83s" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-1.jpg">
+					</a>
+					<div class="video-time">22:40</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@videogamedunkey" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-1.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-1.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Dunkey
+									</div>
+									<div class="channel-tooltip-stats">
+										7.5M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=QtplRk6BdyA&t=83s" target="_blank" class="video-title-link">
+							<p class="video-title">
+								Dundertale
+							</p>
+						</a>
+						<p class="video-author">
+							Dunkey
+						</p>
+						<p class="video-stats">
+							19M views &#183; 8 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=kXShLPXfWZA&t=92s" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-2.jpg">
+					</a>
+					<div class="video-time">13:50</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@TeamAvatar" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-2.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-2.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Avatar: The Last Airbender
+									</div>
+									<div class="channel-tooltip-stats">
+										2.86M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=kXShLPXfWZA&t=92s" target="_blank" class="video-title-link">
+							<p class="video-title">
+								Aang vs. Ozai (Final Battle) 🔥 | Full Scene | Avatar: The Last Airbender
+							</p>
+						</a>
+						<p class="video-author">
+							Avatar: The Last Airbender
+						</p>
+						<p class="video-stats">
+							78M views &#183; 4 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=fXmAurh012s&t=87s" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-3.jpg">
+					</a>
+					<div class="video-time">2:44</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@Netflix" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-3.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-3.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Netflix
+									</div>
+									<div class="channel-tooltip-stats">
+										28.3M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=fXmAurh012s&t=87s" target="_blank" class="video-title-link">
+							<p class="video-title">
+								Arcane | Official Trailer | Netflix
+							</p>
+						</a>
+						<p class="video-author">
+							Netflix
+						</p>
+						<p class="video-stats">
+							6,4M views &#183; 2 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=a7_WFUlFS94" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-4.jpg">
+					</a>
+					<div class="video-time">2:22</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@Fireship" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-4.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-4.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Fireship
+									</div>
+									<div class="channel-tooltip-stats">
+										3.04M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=a7_WFUlFS94" target="_blank" class="video-title-link">
+							<p class="video-title">
+								PHP in 100 Seconds
+							</p>
+						</a>
+						<p class="video-author">
+							Fireship
+						</p>
+						<p class="video-stats">
+							1.2M views &#183; 2 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=Vmb1tqYqyII" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-5.jpg">
+					</a>
+					<div class="video-time">3:06</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@TheOffice" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-5.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-5.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										The Office
+									</div>
+									<div class="channel-tooltip-stats">
+										3.4M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=Vmb1tqYqyII" target="_blank" class="video-title-link">
+							<p class="video-title">
+								First Aid Fail - The Office US
+							</p>
+						</a>
+						<p class="video-author">
+							The Office
+						</p>
+						<p class="video-stats">
+							40M views &#183; 9 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=PaErPyEnDvk&t=9s" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-7.jpg">
+					</a>
+					<div class="video-time">10:05</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@kurzgesagt" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-7.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-7.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Kurzgesagt – In a Nutshell
+									</div>
+									<div class="channel-tooltip-stats">
+										90.6M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=PaErPyEnDvk&t=9s" target="_blank" class="video-title-link">
+							<p class="video-title">
+								What’s Hiding at the Most Solitary Place on Earth? The Deep Sea
+							</p>
+						</a>
+						<p class="video-author">
+							Kurzgesagt – In a Nutshell
+						</p>
+						<p class="video-stats">
+							22M views &#183; 4 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22701s" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-6.jpg">
+					</a>
+					<div class="video-time">6:31:23</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/my-channel.jpeg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-6.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										SuperSimpleDev
+									</div>
+									<div class="channel-tooltip-stats">
+										432K subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22701s" target="_blank" class="video-title-link">
+							<p class="video-title">
+								HTML & CSS Full Course - Beginner to Pro
+							</p>
+						</a>
+						<p class="video-author">
+							SuperSimpleDev
+						</p>
+						<p class="video-stats">
+							9.9M views &#183; 2 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=A3armRWXSTc" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-8.jpg">
+					</a>
+					<div class="video-time">0:20</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@TobeyInTheMCU" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-8.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-8.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Tobey in the MCU
+									</div>
+									<div class="channel-tooltip-stats">
+										378K subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=A3armRWXSTc" target="_blank" class="video-title-link">
+							<p class="video-title">
+								i had to beat an old lady with a stick
+							</p>
+						</a>
+						<p class="video-author">
+							Tobey in the MCU
+						</p>
+						<p class="video-stats">
+							22M views &#183; 4 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=gKgCSFZALkE&t=14s" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-9.jpg">
+					</a>
+					<div class="video-time">14:17</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@manutd" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-9.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-9.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Manchester United
+									</div>
+									<div class="channel-tooltip-stats">
+										8.94M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=gKgCSFZALkE&t=14s" target="_blank" class="video-title-link">
+							<p class="video-title">
+								UNITED 8-2 ARSENAL | On This Day (28 August 2011) | Extended Highlights | Manchester United Classics
+							</p>
+						</a>
+						<p class="video-author">
+							Manchester United
+						</p>
+						<p class="video-stats">
+							18M views &#183; 3 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=XUT8ec24anM&t=11s" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-10.jpg">
+					</a>
+					<div class="video-time">3:12</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@TheOnion" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-10.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-10.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										The Onion
+									</div>
+									<div class="channel-tooltip-stats">
+										2.6M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=XUT8ec24anM&t=11s" target="_blank" class="video-title-link">
+							<p class="video-title">
+								Missing Teen's Friends Go On TV To Plead For Her Release, Gossip About Ugly Classmates
+							</p>
+						</a>
+						<p class="video-author">
+							The Onion
+						</p>
+						<p class="video-stats">
+							7M views &#183; 13 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=li2WDMgHxD0" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-11.jpg">
+					</a>
+					<div class="video-time">1:36</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@voughtintl" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-11.jpg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-11.jpg">
+								<div>
+									<div class="channel-tooltip-name">
+										Vought International
+									</div>
+									<div class="channel-tooltip-stats">
+										700K subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=li2WDMgHxD0" target="_blank" class="video-title-link">
+							<p class="video-title">
+								Soldier Boy | Guest Appearance on Solid Gold
+							</p>
+						</a>
+						<p class="video-author">
+							Vought International
+						</p>
+						<p class="video-stats">
+							13M views &#183; 1 year ago
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-preview">
+				<div class="thumbnail-row">
+					<a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank" class="video-title-link">
+						<img class="thumbnail" src="../thumbnails/thumbnail-12.jpg">
+					</a>
+					<div class="video-time">7:53</div>
+				</div>
+				<div class="video-info-grid">
+					<div class="channel-picture">
+						<div class="profile-picture-container">
+							<a href="https://www.youtube.com/@TEDEd" target="_blank">
+								<img class="profile-picture" src="../channel-pictures/channel-12.jpeg">
+							</a>
+							<div class="channel-tooltip">
+								<img class="channel-tooltip-picture" src="../channel-pictures/channel-12.jpeg">
+								<div>
+									<div class="channel-tooltip-name">
+										TED-Ed
+									</div>
+									<div class="channel-tooltip-stats">
+										19.9M subscribers
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank" class="video-title-link">
+							<p class="video-title">
+								What would happen if you didn’t drink water? - Mia Nacamulli
+							</p>
+						</a>
+						<p class="video-author">
+							TED-Ed
+						</p>
+						<p class="video-stats">
+							12M views &#183; 5 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
